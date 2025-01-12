@@ -1,4 +1,18 @@
 /*nav bar styling*/
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: "Cormorant Unicase", serif;
+    font-weight: 600;
+    font-style: normal
+}
+
 header 
 {
     background-color: #333;
