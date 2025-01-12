@@ -16,7 +16,6 @@ body
 header 
 {
     background-color: #333;
-    color: white;
     padding: 10px 20px;
 }
 
@@ -28,7 +27,8 @@ header
 
 .navleft h1
 {
-    font-size: 24px;
+    color: aquamarine;
+    font-size: 25px;
     font-weight: bold;
 }
 
@@ -50,7 +50,7 @@ header
 .navright a
 {
     text-decoration: none;
-    color: white;
+    color: aquamarine;
     font-size: 25px;
     transition: color 0.3 ease; 
 }
@@ -65,7 +65,7 @@ header
 {
     background-color: teal;
     border-radius: 8px;
-    max-width: 600px;
+    max-width: 1700px;
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 4px 8px rbga(0, 0, 0, 0.1);
@@ -73,15 +73,7 @@ header
 
 .about-me h1
 {
-    font-size: 36px;
-    color: pink;
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-.about-me h2
-{
-    font-size: 24px;
+    font-size: 40px;
     color: pink;
     text-align: center;
     margin-bottom: 10px;
@@ -89,7 +81,77 @@ header
 
 .about-me p
 {
-    font-size: 18px;
+    text-indent: 30px;
+    font-size: 25px;
+    color: pink;
+    text-align: left;
+}
+
+/*Hobbies*/
+.no-bullets
+{
+    list-style-type: none;
+}
+
+.hobbies
+{
+    background-color: teal;
+    border-radius: 8px;
+    max-width: 1700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rbga(0, 0, 0, 0.1);
+}
+
+.hobbies h1
+{
+    font-size: 40px;
     color: pink;
     text-align: center;
+    margin-bottom: 10px;
+}
+
+.hobbies p
+{
+    font-size: 25px;
+    color: pink;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.hobbies ul
+{
+    font-size: 25px;
+    color: pink;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/*World of Warcraft*/
+
+.wow
+{
+    background-color: teal;
+    border-radius: 8px;
+    max-width: 1700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rbga(0, 0, 0, 0.1);
+}
+
+.wow h1
+{
+    font-size: 40px;
+    color: pink;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.wow p
+{
+    text-indent: 30px;
+    font-size: 25px;
+    color: pink;
+    text-align: left;
+    margin-bottom: 10px;
 }
