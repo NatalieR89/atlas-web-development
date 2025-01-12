@@ -17,7 +17,7 @@ body
 header 
 {
     background-color: #333;
-    padding: 10px 20px;
+    padding: 0px 0px;
 }
 
 .nav
@@ -25,7 +25,6 @@ header
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
     margin: auto;
@@ -34,7 +33,6 @@ header
 .navc
 {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
 }
@@ -65,7 +63,7 @@ header
     text-decoration: none;
     color: aquamarine;
     font-size: 50px;
-    font-weight: bold; 
+    font-weight: bold;
 }
 
 .navright a:hover
@@ -271,7 +269,7 @@ header
 .foot a
 {
     text-indent: 30px;
-    font-size: 25px;
+    font-size: 20px;
     color: pink;
     text-align: left;
     margin-bottom: 10px
