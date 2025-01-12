@@ -20,6 +20,13 @@ header
     font-weight: bold;
 }
 
+.navright
+{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
 .navright ul
 {
     list-style: none;
