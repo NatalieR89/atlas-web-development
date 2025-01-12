@@ -82,7 +82,7 @@ header
 /* About Me*/
 .about-me
 {
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.8);
     border-radius: 8px;
     max-width: 1700px;
     margin: 20px auto;
@@ -114,7 +114,7 @@ header
 
 .hobbies
 {
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.8);
     border-radius: 8px;
     max-width: 1700px;
     margin: 20px auto;
@@ -146,8 +146,34 @@ header
     margin-bottom: 10px;
 }
 
-/*World of Warcraft*/
+/*Fun Facts*/
+.fun
+{
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius: 8px;
+    max-width: 1700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rbga(0, 0, 0, 0.1);
+}
+.fun h1
+{
+    font-size: 40px;
+    color: pink;
+    text-align: center;
+    margin-bottom: 10px;
+}
 
+.fun p
+{
+    text-indent: 30px;
+    font-size: 25px;
+    color: pink;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/*World of Warcraft*/
 .wow
 {
     background-color: rgba(0, 128, 128, 0.8);
@@ -173,4 +199,80 @@ header
     color: pink;
     text-align: left;
     margin-bottom: 10px;
+}
+
+/*Why I Chose Atlas*/
+.why
+{
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius: 8px;
+    max-width: 1700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rbga(0, 0, 0, 0.1);   
+}
+
+.why h1
+{
+    font-size: 40px;
+    color: pink;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.why p
+{
+    text-indent: 30px;
+    font-size: 25px;
+    color: pink;
+    text-align: left;
+    margin-bottom: 10px
+}
+
+/*Future Plans*/
+.future
+{
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius: 8px;
+    max-width: 1700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rbga(0, 0, 0, 0.1); 
+}
+
+.future h1
+{
+    font-size: 40px;
+    color: pink;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.future p
+{
+    text-indent: 30px;
+    font-size: 25px;
+    color: pink;
+    text-align: left;
+    margin-bottom: 10px
+}
+
+/* Footer */
+
+.foot
+{
+    background-color: rgba(0, 128, 128, 0.8);
+    border-radius: 8px;
+    max-width: 1700px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rbga(0, 0, 0, 0.1); 
+}
+.foot a
+{
+    text-indent: 30px;
+    font-size: 25px;
+    color: pink;
+    text-align: left;
+    margin-bottom: 10px
 }
