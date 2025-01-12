@@ -10,7 +10,8 @@ body
 {
     font-family: "Cormorant Unicase", serif;
     font-weight: 600;
-    font-style: normal
+    font-style: normal;
+    background-color: #333;  
 }
 
 header 
@@ -19,10 +20,23 @@ header
     padding: 10px 20px;
 }
 
-.nav 
+.nav
+{
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.navc
 {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .navleft h1
@@ -58,6 +72,12 @@ header
 .navright a:hover
 {
     color: #00bcd4;
+}
+
+/*main*/
+.main
+{
+    background-color: #333;
 }
 
 /* About Me*/
@@ -131,7 +151,7 @@ header
 
 .wow
 {
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 0.8);
     border-radius: 8px;
     max-width: 1700px;
     margin: 20px auto;
