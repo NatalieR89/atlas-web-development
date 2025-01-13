@@ -22,32 +22,34 @@ header
 
 .nav
 {
-    background-size: cover;
-    background-position: center;
     display: flex;
     justify-content: space-between;
-    box-sizing: border-box;
-    margin: auto;
+    align-items: center;
+    padding: 0 20px;
 }
 
 .navc
 {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
 }
 
 .navleft h1
 {
     color: aquamarine;
+    margin: 0;
     font-size: 50px;
     font-weight: bold;
+
 }
 
 .navright
 {
     display: flex;
     align-items: center;
+    margin-left: auto;
 }
 
 .navright ul
@@ -55,14 +57,15 @@ header
     list-style: none;
     display: flex;
     gap: 20px;
-    margin-left: auto;
+    margin: 0;
+    padding: 0;
 }
 
 .navright a
 {
     text-decoration: none;
     color: aquamarine;
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bold;
 }
 
