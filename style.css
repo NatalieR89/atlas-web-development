@@ -28,13 +28,13 @@ header
     padding: 0 20px;
 }
 
-.navc
+/*.navc
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-}
+}*/
 
 .navleft h1
 {
