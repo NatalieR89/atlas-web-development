@@ -1,0 +1,38 @@
+.background
+{
+    background-image: url("images/pic_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.menu
+{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.menu li
+{
+    margin-right: 15px;
+}
+
+.menu a
+{
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
