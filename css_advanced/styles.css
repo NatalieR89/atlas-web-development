@@ -4,6 +4,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    height: 150vh;
+    width: 100%;
 }
 
 header
@@ -16,12 +18,18 @@ header
     top: 0;
 }
 
+nav
+{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
 .menu
 {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
-    position: relative;
+    margin-left: auto;
 }
 
 .menu li
@@ -35,4 +43,21 @@ header
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 15px;
+}
+
+.school
+{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 120;
+    position: center;
+
+}
+
+.pros
+{
+    display: flex;
+    justify-content: wrap;
 }
