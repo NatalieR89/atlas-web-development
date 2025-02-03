@@ -68,16 +68,6 @@ nav
     align-items: center;
     margin: auto;
     margin-top: 136px;
-
-}
-
-.smiles
-{
-    display: flex;
-    font-size: 16px;
-    font-weight: bold;
-    gap: 60px;
-
 }
 
 .school h1
@@ -85,6 +75,12 @@ nav
     font-size: 120px;
     margin-block-start: 0px;
     margin-block-end: 0px;
+}
+
+.smiles
+{
+    display: flex;
+    font-size: 16px;
 }
 
 .purple
@@ -98,6 +94,7 @@ header h2
 {
     color: white;
     font-weight: 300;
+    font-size: 32px;
 }
 
 .pros
@@ -105,7 +102,7 @@ header h2
     display: flex;
     color: white;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 1009px;
     margin: auto;
 }
