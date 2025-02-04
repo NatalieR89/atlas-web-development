@@ -151,15 +151,17 @@ button
     height: 392px;
 }
 
-.testimonial blockquote
+blockquote
 {
     font-size: 22px;
+    text-align: start;
 }
 
 .testimonial img
 {
     border-radius: 160px;
     max-width: 160px;
+    position: center;
 }
 
 .person
