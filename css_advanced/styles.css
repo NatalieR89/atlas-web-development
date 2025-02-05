@@ -174,3 +174,8 @@ blockquote
     font-size: 22px;
     font-style: italic;
 }
+
+.tut-purple h1
+{
+    font-weight: 100;
+}
