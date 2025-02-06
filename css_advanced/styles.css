@@ -178,4 +178,201 @@ blockquote
 .tut-purple h1
 {
     font-weight: 100;
+    padding: 50px;
+}
+
+.video
+{
+    display: flex;
+    width: 255px;
+    height: 335px;
+    margin: auto;
+    justify-content: center;
+    gap: 50px
+}
+
+.video img
+{
+    width: 255px;
+    height: 154px;
+}
+
+.author
+{
+    display: flex;
+    font-size: 14px;
+    color: #c271ff;
+    align-items: center;
+}
+
+.author img
+{
+    border-radius: 150px;
+    max-width: 30px;
+    max-height: 30px;
+    gap: 10px;
+}
+
+.rating
+{
+    display: flex;
+    font-size: 14px;
+    color: #c271ff;
+    font-weight: 700;
+    margin: auto;
+}
+
+.stars
+{
+    display: flex;
+    align-items: center;
+}
+
+.stars img
+{
+    width: 15px;
+    height: 15px;
+}
+
+.free
+{
+    background-color: #071629;
+    margin-top: 75px;
+    text-align: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: white;
+
+}
+
+.free h1
+{
+    font-size: 32px;
+    padding-top: 75px;
+    padding-bottom: 30px;
+}
+
+.free img
+{
+    width: 44px;
+    height: 35px;
+}
+
+.smile
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    height: 153px;
+}
+
+.smile h2
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.smile p
+{
+    font-size: 14px;
+}
+
+.smile-s
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.free button
+{
+    margin-bottom: 45px;
+}
+
+.faq 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 82px;
+    color: #071629;
+    padding: 25px;
+    text-align: left;
+    width: 920px;
+    height: 707px;
+}
+
+.faq h1 
+{
+    font-size: 60px;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    color: #071629;
+    grid-column: span 2;
+}
+
+.faq h2 
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.faq p
+{
+    font-size: 14px;
+    color: #071629;
+    opacity: .5;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.footer 
+{
+    background-color: #071629;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.footer-content 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-left a 
+{
+    display: inline-block;
+    width: 114px;
+    height: 20px;
+
+}
+
+.footer-left img 
+{
+    width: 169px;
+    height: 30px;
+}
+
+.footer-right a 
+{
+    margin: 0 10px;
+}
+
+.footer-right img 
+{
+    width: 30px;
+    height: 30px;
+}
+
+.footer-bottom 
+{
+    font-size: 14px;
+    opacity: .35;
 }
